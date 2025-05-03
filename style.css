@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+    background-color: #060a37;
+    font-family: helvetica;
+
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style-type: none;
+}
+header {
+    
+    width: 100%;
+    height: 8vh;
+    padding:  0 18vh;
+}
+
+header nav {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h1 a {
+    font-size: 32px;
+}
+header nav h1 a:hover {
+    color: #ffff00;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    text-transform: uppercase;
+
+}
+
+header nav ul li a:hover {
+    color: yellow;
+}
+
+main {
+  
+    width: 100%;
+    height: calc(100vh - 8vh - 3vh);
+    padding:  0 18vh;
+}
+
+main section {
+   
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+main section .content {
+    width: 60%;
+   
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+main section .content h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+main section .content h2 span {
+    color: yellow;
+}
+main section .content h3 {
+    font-size: 24px;
+}
+
+main section .content p {
+    font-size: 18px;
+    margin: 30px 0;
+ 
+}
+main section .content ul {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+}
+main section .content ul .download a {
+    width: 180px;
+    height: 50px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    background-color: #ffff00;
+    color: #060a37;
+    border-radius: 25px;
+}
+main section .content ul .download a:hover{
+    background-color: #060a37;
+    color: #ffff00;
+    border: solid 1px #ffff00;
+}
+main section .content ul .social{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+}
+main section .content ul .social:hover {
+    transform: scale(1.1);
+}
+
+main section .content ul .social a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-radius: 50%; */
+}
+main section .content ul .social a:hover{
+    border: 1px solid #ffff00;
+    border-radius: 50%;
+}
+
+
+
+main section .photo {
+ 
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+main section .photo div{
+ 
+    border-radius: 50%;
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+main section .photo div:hover{
+    scale: 1.1;
+    
+    
+}
+
+main section .photo div img{
+    width: 100%;
+    
+}
+
+
+
+
+
+
+footer {
+
+    width: 100%;
+    height: 3vh;
+}
+footer p {
+    text-align: center;
+}
+
